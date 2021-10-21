@@ -177,14 +177,14 @@
 
 
 .ex-12-button:hover .ex-12-top-white{
-    animation: spostatop 2s linear;
+    animation: spostatop 1s linear;
 }
 @keyframes spostatop{
     0%{
         left: 10%;
     }
     50%{
-        left: calc(100%-60px);
+        left: calc(100%-50px);
     }
     100%{
         left: 10%;
@@ -199,7 +199,7 @@
         right: 10;
     }
     50%{
-        right: calc(100%-60px);
+        right: calc(100%-50px);
     }
     100%{
         right: 10%;
