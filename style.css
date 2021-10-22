@@ -115,6 +115,10 @@
     transform: scale(1);
 }
 
+.ex-6-img{
+    transition: 2s;
+}
+
 .ex-6-img:hover{
     filter: grayscale(1);
 }
@@ -132,8 +136,7 @@
 }
 
 .ex-8-img:hover{
-    filter: grayscale(1);
-    filter: sepia(0.8);
+    filter: grayscale(1) sepia(0.8);
     border-radius: 10%;
 }
 
